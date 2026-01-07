@@ -1,7 +1,7 @@
 # LangChain Chatbot Challenge
 
-![Test](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/actions/workflows/test.yml/badge.svg)
-![Lint](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/actions/workflows/lint.yml/badge.svg)
+![Test](https://github.com/kd365/langchain-challenge/actions/workflows/test.yml/badge.svg)
+![Lint](https://github.com/kd365/langchain-challenge/actions/workflows/lint.yml/badge.svg)
 
 A multilingual chatbot and text summarizer built with LangChain and AWS Bedrock.
 
