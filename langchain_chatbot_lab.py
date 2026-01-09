@@ -9,7 +9,9 @@ import os
 load_dotenv()
 
 # Define the AWS CLI Profile to use through env permission
-os.environ["AWS_PROFILE"] = os.getenv("AWS_PROFILE")
+aws_profile = os.getenv("AWS_PROFILE")
+if aws_profile:
+    os.environ["AWS_PROFILE"] = aws_profile
 
 # Create a Bedrock Client
 bedrock_client = boto3.client(
